@@ -63,7 +63,10 @@
             <extensions>true</extensions>
             <configuration>
                <debug>true</debug>
-               <showWarnings>false</showWarnings>
+               <loadConfigs>
+                  <config>${basedir}/build/config.xml</config>
+                  <config>${basedir}/build/metadata.xml</config>
+               </loadConfigs>
             </configuration>
             <dependencies>
                <dependency>
